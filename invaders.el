@@ -201,7 +201,7 @@
  '(magit-cherry-equivalent ((t (:foreground "#dc8cc3"))))
  '(magit-cherry-unmatched ((t (:foreground "#93e0e3"))))
  '(magit-diff-added ((t (:foreground "lime green"))))
- '(magit-diff-added-highlight ((t (:inherit magit-diff-added :weight bold))))
+ '(magit-diff-added-highlight ((t (:inherit magit-diff-added :weight normal))))
  '(magit-diff-context ((t (:foreground "#d3d3d3"))))
  '(magit-diff-context-highlight ((((class color) (min-colors 89)) (:background "#282828" :foreground "#d1d1d1"))))
  '(magit-diff-context-highlight ((t (:inherit magit-diff-context :weight bold))))
