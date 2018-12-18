@@ -370,4 +370,8 @@
  '(vertical-border ((((class color) (min-colors 89)) (:foreground "#d1d1d1" :background "#000000"))))
  )
 
+;; Local Variables:
+;; no-byte-compile: t
+;; End:
 (provide-theme 'invaders)
+;;; invaders-theme.el ends here
