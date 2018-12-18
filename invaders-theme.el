@@ -1,4 +1,4 @@
-;;; invaders.el --- Invaders Theme
+;;; invaders-theme.el --- Invaders Theme
 
 ;; Copyright 2018~, github/baron
 
@@ -351,7 +351,7 @@
  '(rainbow-delimiters-depth-_12-face ((((class color) (min-colors 89)) (:foreground "#8c5353"))))
  '(rainbow-delimiters-unmatched-face ((((class color) (min-colors 89)) :foreground "#ff0000")))
  '(region ((((class color) (min-colors 89)) (:background "#344256"))))
- '(secondary-selection ((((class color) (min-colors 89)) (:background "#5f5f5f"))))
+ '(secondary-selection ((((class color) (min-colors 89)) (:foreground nil :background "#5f5f5f"))))
  '(shadow ((t (:weight normal :slant normal :underline nil :foreground "grey70"))))
  '(show-paren-match ((((class color) (min-colors 89)) (:foreground "#000000" :background "#ff1493"))))
  '(show-paren-match-face ((((class color) (min-colors 89)) (:foreground "#ff0000" :background "#000000"))))
@@ -378,11 +378,11 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'invaders)
-(provide 'invaders)
+(provide 'invaders-theme)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
-;;; invaders.el ends here
+;;; invaders-theme.el ends here
