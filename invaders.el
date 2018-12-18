@@ -46,6 +46,7 @@
 
 (custom-theme-set-faces
  'invaders
+ '(default ((((class color) (min-colors 89)) (:foreground "white" :background "black"))))
  '(bold ((((class color) (min-colors 89)) (:bold t))))
  '(button ((t (:weight normal :slant normal :underline nil))))
  '(c-annotation-face ((((class color) (min-colors 89)) (:inherit font-lock-constant-face))))
@@ -68,7 +69,6 @@
  '(cursor ((t (:weight normal :slant normal :underline nil :background "green"))))
  '(custom-button ((((class color) (min-colors 89)) (:box (:line-width 2 :style released-button) :background "#383838" :foreground "#dcdccc"))))
  '(custom-button-unraised ((((class color) (min-colors 89)) (:background "#383838" :foreground "#dcdccc"))))
- '(default ((t (:family "" :foundry "nil" :width normal :height 141 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "white" :background "black" :stipple nil :inherit nil))))
  '(diff-added ((((class color) (min-colors 89)) (:foreground "#00ff00"))))
  '(diff-changed ((((class color) (min-colors 89)) (:foreground "#ffff00"))))
  '(diff-file-header ((((class color) (min-colors 89)) (:background "#5f5f5f" :foreground "#dcdccc" :bold t))))
