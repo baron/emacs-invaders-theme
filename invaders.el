@@ -378,11 +378,11 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'invaders)
+(provide 'invaders)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
-
 ;;; invaders.el ends here
