@@ -372,8 +372,17 @@
  '(vertical-border ((((class color) (min-colors 89)) (:foreground "#d1d1d1" :background "#000000"))))
  )
 
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
+(provide-theme 'invaders)
+
 ;; Local Variables:
 ;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
-(provide-theme 'invaders)
+
 ;;; invaders.el ends here
