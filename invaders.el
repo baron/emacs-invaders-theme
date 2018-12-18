@@ -213,7 +213,7 @@
  '(magit-diff-hunk-heading-selection ((t (:background "#4f4f4f" :foreground "#96CBFE"))))
  '(magit-diff-lines-heading ((t (:background "#96CBFE" :foreground "#4f4f4f"))))
  '(magit-diff-removed ((t (:foreground "red2"))))
- '(magit-diff-removed-highlight ((t (:inherit magit-diff-removed :weight bold))))
+ '(magit-diff-removed-highlight ((t (:inherit magit-diff-removed :weight normal))))
  '(magit-diffstat-added ((((class color) (min-colors 89)) (:foreground "#eab700"))))
  '(magit-diffstat-added ((t (:inherit magit-diff-added))))
  '(magit-diffstat-removed ((((class color) (min-colors 89)) (:foreground "#e87400"))))
