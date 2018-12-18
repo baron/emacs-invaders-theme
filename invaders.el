@@ -41,6 +41,8 @@
 
 ;; Thank you for the inspiration.
 
+;;; Code:
+
 (deftheme invaders
   "Created 2018-12-18.")
 
