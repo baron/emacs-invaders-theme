@@ -1,4 +1,4 @@
-;;; invaders-theme.el --- Invaders Theme
+;;; invaders.el --- Invaders Theme
 
 ;; Copyright 2018~, github/baron
 
@@ -374,4 +374,4 @@
 ;; no-byte-compile: t
 ;; End:
 (provide-theme 'invaders)
-;;; invaders-theme.el ends here
+;;; invaders.el ends here
